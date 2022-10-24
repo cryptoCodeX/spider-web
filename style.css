@@ -97,7 +97,7 @@ body {
     margin: auto;
 }
 
-.container div {
+.container .image {
     width: 40%;
     float:left;
     padding-left: 2%;
@@ -106,4 +106,59 @@ body {
 
 .container div img {
     width: 100%;
+}
+
+.container .client,
+.container .footer {
+    text-align: center;
+}
+
+.container .client {
+    padding-top: 200px;
+}
+
+.container .client h2 {
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.container .client h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.container .client h4 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.container .client p {
+    margin: 20px 0 50px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container .client a {
+    text-decoration: none;
+    color: #fff;
+    background: #FF428D;
+    display: inline-block;
+    padding: 40px 160px;
+    border-radius: 10px;
+}
+
+.footer-area {
+    background: url("images/footer-bg.png") no-repeat;
+    background-position:0%;
+    background-size: cover;
+}
+
+.footer {
+    margin-top: 170px;
+}
+
+.footer p {
+    font-size: 12px;
+    color: #000;
+    padding: 10px 0;
 }
