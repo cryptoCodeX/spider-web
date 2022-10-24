@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-area {
+    background: url("images/header-bg.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    height: 500px;
+}
+
+.text-area, 
+.image-area {
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+
+.text-area {
+    padding-top: 180px;
+}
+
+.text-area h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.text-area .highlited {
+    color: #FF428D;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.text-area p {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.image-area img {
+    width: 100%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.image-area .img {
+    width: 80%;
+}
+
+.banner {
+    height: 500px;
+    background: url("images/biography-bg.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-area a {
+    text-decoration: none;
+    color: #fff;
+    background: #FF428D;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
