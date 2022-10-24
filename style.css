@@ -62,7 +62,7 @@ body {
 }
 
 .banner {
-    height: 500px;
+    height: 600px;
     background: url("images/biography-bg.png") no-repeat;
     background-position: center;
     background-size: cover;
@@ -77,4 +77,33 @@ body {
     margin-top: 10px;
     border-radius: 5px;
     font-size: 12px;
+}
+
+.latest-work {
+    height: 500px;
+    background: url("images/latest-work-bg.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.latest-work h2 {
+    text-align: center;
+    margin: 60px 0;
+    font-weight: 400;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.container div {
+    width: 40%;
+    float:left;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+
+.container div img {
+    width: 100%;
 }
